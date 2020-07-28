@@ -1,7 +1,6 @@
 require 'net/http'
 require 'json'
-class
-   GetRequester
+class GetRequester
   attr_reader :url
 
   def initialize(url)
