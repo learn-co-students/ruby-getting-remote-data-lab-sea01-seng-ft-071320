@@ -1,5 +1,6 @@
 require 'net/http'
 require 'json'
+
 class GetRequester
   attr_reader :url
 
